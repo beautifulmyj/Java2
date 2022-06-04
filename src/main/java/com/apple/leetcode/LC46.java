@@ -6,9 +6,9 @@ import java.util.List;
 public class LC46 {
     public static List<List<Integer>> permute(int[] nums) {
         int len = nums.length;
+        if (len == 0) return null;
         // 使用一个动态数组保存所有可能的全排列
         List<List<Integer>> res = new ArrayList<>();
-        if (len == 0) return res;
 
         boolean[] used = new boolean[len];
         List<Integer> path = new ArrayList<>();

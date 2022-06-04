@@ -19,7 +19,7 @@ public final class Singleton {
                             20,
                             60,
                             TimeUnit.SECONDS,
-                            new LinkedBlockingDeque<>());
+                            new LinkedBlockingDeque<Runnable>());
                 }
             }
         }

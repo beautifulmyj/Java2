@@ -17,7 +17,7 @@ public class ThreadpoolUtil {
                             10,
                             300,
                             TimeUnit.SECONDS,
-                            new LinkedBlockingDeque<>(10));
+                            new LinkedBlockingDeque<Runnable>(10));
                 }
             }
         }

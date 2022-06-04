@@ -50,7 +50,7 @@ public class TestCollections {
         coll.add(2);
 
         //public static <T extends Object & Comparable<? super T>> T min(Collection<? extends T> coll)
-        Comparable min = Collections.min(coll);
+//        Comparable min = Collections.min(coll);
     }
 
     @Test
